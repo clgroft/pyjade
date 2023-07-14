@@ -4,8 +4,8 @@ import pyjade.runtime
 
 from pyjade import Compiler as _Compiler
 from pyjade.runtime import attrs as _attrs, iteration
-from jinja2 import Markup
 from jinja2.runtime import Undefined
+from markupsafe import Markup
 from pyjade.utils import process
 
 ATTRS_FUNC = '__pyjade_attrs'
